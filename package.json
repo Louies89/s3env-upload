@@ -1,0 +1,50 @@
+{
+  "name": "s3env-upload",
+  "author": "Chandrajyoti Das <louies89@gmail.com>",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "Store your NodeJs server secrets in S3(AWS/GCP/Digitalocean) with encryption and download it while starting your NodeJs server in production/development",
+  "main": "index.js",
+  "scripts": {
+    "uploadenv": "NODE_ENV=development node -r dotenv-flow/config uploadenv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Louies89/s3env-upload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Louies89/s3env-upload/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.839.0",
+    "dotenv-flow": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "keywords": [
+    "encrypted secret manager",
+    "simple secret manager",
+    "s3",
+    "s3 secret storage",
+    "s3 encrypted storage",
+    "env",
+    "environment",
+    "s3 env",
+    "s3 environment",
+    "AWS s3 env",
+    "AWS s3 environment",
+    "Google Cloud Storage env",
+    "Google Cloud Storage environment",
+    "nodejs env",
+    "nodejs environment",
+    "production env",
+    "production environment",
+    "nodejs production environment",
+    "upload environment",
+    "upload secret",
+    "download secret"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "eslint.debug": true,
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "eslint.options": {
+    
+    }
+}
